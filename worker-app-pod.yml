@@ -8,7 +8,7 @@ kind: Pod
 metadata:
   name: worker-app-pod
   labels:
-    name: worker-app-pod
+    name: demo-voting-app
     app: demo-worker-app
 
 spec:
