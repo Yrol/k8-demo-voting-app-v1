@@ -1,3 +1,8 @@
+# Redis pod
+# Using the official Redis image from Dockerhub
+# Using the default  Redis port 6379
+# info under the labels will be referenced within services
+
 apiVersion: v1
 kind: Pod
 metadata:
