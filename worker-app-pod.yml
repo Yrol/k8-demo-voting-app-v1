@@ -1,7 +1,7 @@
 # Worker app of the overall voting application
 # Written in .NET,
 # This application will read votes from in-memory redis DB and update the persistent Postgres DB
-# Does not expose any ports
+# Does not expose any ports or not being called by other apps
 
 apiVersion: v1
 kind: Pod
