@@ -14,4 +14,5 @@ spec:
   containers:
     - name: postgres-app
       image: postgres
-      ports: 5432
+      ports:
+        - containerPort: 5432
