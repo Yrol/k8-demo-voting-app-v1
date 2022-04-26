@@ -1,5 +1,5 @@
 # Postgres pod
-# Using the official Postgres image from Dockerhub
+# Using the official Postgres image v9.4 from Dockerhub
 # Using the default Postgres port 5432
 
 apiVersion: v1
@@ -12,7 +12,7 @@ metadata:
 
 spec:
   containers:
-    - name: postgres-app
-      image: postgres
+    - name: postgres
+      image: postgres:9.4
       ports:
         - containerPort: 5432
