@@ -8,8 +8,9 @@ kind: Pod
 metadata:
   name: worker-app-pod
   labels:
-    name: demo-voting-app
-    app: demo-worker-app
+    name: worker-app-pod
+    app: demo-voting-app
+  namespace: voting
 
 spec:
   containers:
